@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  font-size: 10px;
+  
+}
+
+.App > h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 10px;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin: 2px;
+  margin-left: 1.5rem;
+  text-align: left;
+}
+
+button:hover, p:hover {
+  background: rgb(50, 47, 47);
+  color: red;
+}
+
+#flex {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+input {
+  text-align: center;
+  cursor: pointer;
+}
